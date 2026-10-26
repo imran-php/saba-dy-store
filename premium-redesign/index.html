@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="description" content="saba-dy. Натуральное мыло ручной работы. Дизайн-концепция магазина с заботой о повседневных ритуалах.">
+  <title>saba-dy · Забота в каждом касании</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/manrope-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/images/hero.webp" imagesrcset="assets/images/hero-small.webp 640w, assets/images/hero.webp 1122w" imagesizes="(max-width: 767px) calc(100vw - 48px), 43vw" as="image" fetchpriority="high">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К содержимому</a>
+  <header class="header">
+    <a class="wordmark" href="#home" aria-label="saba-dy, главная">saba-dy</a>
+    <nav class="desktop-nav" aria-label="Главная навигация">
+      <a class="active" href="#home">Главная</a><a href="#products">Товары</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button theme-toggle" type="button" aria-label="Переключить цветовую тему"><span class="icon moon" aria-hidden="true"></span></button>
+      <button class="cart-toggle" type="button" data-open-cart aria-label="Открыть корзину, 0 товаров"><span class="icon bag" aria-hidden="true"></span><span class="cart-label">Корзина</span><span class="cart-count">0</span></button>
+      <button class="icon-button menu-toggle" type="button" data-open-menu aria-label="Открыть меню"><span class="icon list" aria-hidden="true"></span></button>
+    </div>
+  </header>
+  <noscript><p class="no-script">Каталог и документы доступны без JavaScript. Для примерки корзины включите JavaScript в браузере.</p></noscript>
+  <main id="main">
+    <section class="hero shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow hero-enter">Натуральное мыло ручной работы</p>
+        <h1 class="hero-enter" id="hero-title">Забота<br><span>в каждом касании.</span></h1>
+        <p class="hero-description hero-enter">Любимые ароматы, мягкая пена и немного времени для себя. Простое удовольствие каждый день.</p>
+        <div class="hero-enter"><a class="button primary" href="#products">Выбрать своё мыло<span class="icon arrow-right" aria-hidden="true"></span></a></div>
+      </div>
+      <div class="hero-media"><img src="assets/images/hero.webp" srcset="assets/images/hero-small.webp 640w, assets/images/hero.webp 1122w" sizes="(max-width: 767px) calc(100vw - 48px), 43vw" alt="Натуральное мыло на камне в мягком солнечном свете" width="1122" height="1402" fetchpriority="high"></div>
+    </section>
+
+    <section class="introduction shell reveal" aria-labelledby="intro-title">
+      <span class="intro-mark" aria-hidden="true"><span class="icon leaf"></span></span>
+      <div><h2 id="intro-title">Хороший день начинается<br>с простых вещей.</h2><p>Тёплая вода. Знакомый аромат. Мыло, которое приятно держать в руках. Мы создаём saba-dy для этих маленьких моментов заботы о себе.</p></div>
+    </section>
+
+    <section class="collection shell" id="products" aria-labelledby="collection-title">
+      <div class="section-heading reveal"><p class="eyebrow">Коллекция saba-dy</p><h2 id="collection-title">Найдите свой аромат.</h2><p>Два разных настроения для вашего ежедневного ритуала.</p></div>
+      <div class="catalog-toolbar"><div class="filters" role="group" aria-label="Фильтр ароматов"><button type="button" class="filter active" aria-pressed="true" data-filter="all">Всё мыло</button><button type="button" class="filter" aria-pressed="false" data-filter="herbal">Травяные</button><button type="button" class="filter" aria-pressed="false" data-filter="floral">Цветочные</button></div><span class="result-count" aria-live="polite">2 аромата</span></div>
+      <div class="product-grid">
+        <article class="product-card reveal" data-category="herbal">
+          <button class="product-image" type="button" data-product="lavender" aria-label="Подробнее о мыле Лаванда и мёд"><img src="assets/images/lavender.webp" srcset="assets/images/lavender-small.webp 640w, assets/images/lavender.webp 1254w" sizes="(max-width: 767px) calc(100vw - 48px), 43vw" width="1254" height="1254" alt="Мыло Лаванда и мёд с веточкой лаванды" loading="lazy"><span class="image-action" aria-hidden="true"><span class="icon arrow-up-right"></span></span></button>
+          <div class="product-meta"><p class="product-note">Травяной аромат · Тёплые медовые ноты</p><div class="product-title-line"><h3><button type="button" data-product="lavender">Лаванда и мёд</button></h3><span class="price">350 ₽</span></div><div class="product-bottom"><button class="text-button" type="button" data-product="lavender">О составе<span class="icon arrow-up-right" aria-hidden="true"></span></button><button class="add-button" type="button" data-add="lavender">В корзину<span class="icon plus" aria-hidden="true"></span></button></div></div>
+        </article>
+        <article class="product-card reveal" data-category="floral">
+          <button class="product-image" type="button" data-product="rose" aria-label="Подробнее о мыле Роза и молоко"><img src="assets/images/rose.webp" srcset="assets/images/rose-small.webp 640w, assets/images/rose.webp 1254w" sizes="(max-width: 767px) calc(100vw - 48px), 43vw" width="1254" height="1254" alt="Мыло Роза и молоко с лепестками розы" loading="lazy"><span class="image-action" aria-hidden="true"><span class="icon arrow-up-right"></span></span></button>
+          <div class="product-meta"><p class="product-note">Цветочный аромат · Нежная кремовая пена</p><div class="product-title-line"><h3><button type="button" data-product="rose">Роза и молоко</button></h3><span class="price">420 ₽</span></div><div class="product-bottom"><button class="text-button" type="button" data-product="rose">О составе<span class="icon arrow-up-right" aria-hidden="true"></span></button><button class="add-button" type="button" data-add="rose">В корзину<span class="icon plus" aria-hidden="true"></span></button></div></div>
+        </article>
+      </div>
+      <p class="concept-caption">Изображения передают визуальную концепцию. Форма и оттенок реального мыла могут отличаться.</p>
+    </section>
+
+    <section class="ritual shell" aria-labelledby="ritual-title">
+      <div class="ritual-image reveal"><img src="assets/images/ritual.webp" srcset="assets/images/ritual-small.webp 900w, assets/images/ritual.webp 1774w" sizes="90vw" alt="Руки с мылом и лёгкой пеной под струёй воды" width="1774" height="887" loading="lazy"></div>
+      <div class="ritual-content reveal"><h2 id="ritual-title">Пусть время<br>немного замедлится.</h2><div><p>Не обязательно ждать особенного повода, чтобы позаботиться о себе. Иногда достаточно воды, мягкой пены и пары спокойных минут.</p><p class="muted">Нам близки простые вещи: приятная текстура, любимый аромат и внимание к тому, что окружает нас каждый день.</p></div></div>
+    </section>
+
+    <section class="delivery shell reveal" id="delivery" aria-labelledby="delivery-title">
+      <div class="delivery-heading"><h2 id="delivery-title">Из наших рук<br>в ваш дом.</h2><p>Выберите удобный способ получения. Детали доставки согласуем при оформлении заказа.</p><a class="text-button" href="tel:+79640642728">Задать вопрос<span class="icon arrow-up-right" aria-hidden="true"></span></a></div>
+      <div class="delivery-options">
+        <details open><summary><span>Самовывоз</span><span class="delivery-price">Бесплатно</span><span class="icon plus" aria-hidden="true"></span></summary><div class="delivery-body"><p>г. Аргун, ул. Мани-Шейха, д. 10. Предварительно договоритесь о времени по телефону.</p></div></details>
+        <details><summary><span>Курьер</span><span class="delivery-price">от 300 ₽</span><span class="icon plus" aria-hidden="true"></span></summary><div class="delivery-body"><p>Доставка по Грозному и Аргуну. Стоимость для отдалённых районов согласовывается отдельно.</p></div></details>
+        <details><summary><span>СДЭК</span><span class="delivery-price">По тарифу</span><span class="icon plus" aria-hidden="true"></span></summary><div class="delivery-body"><p>Получение в удобном пункте выдачи. Доставка оплачивается отдельно при получении. Ориентировочный срок: 2-14 дней.</p></div></details>
+        <details><summary><span>Ozon Доставка</span><span class="delivery-price">220 ₽</span><span class="icon plus" aria-hidden="true"></span></summary><div class="delivery-body"><p>Укажите пункт выдачи и телефон, зарегистрированный в приложении Ozon. Код получения придёт в приложение.</p></div></details>
+      </div>
+    </section>
+
+    <section class="contacts shell reveal" id="contacts" aria-labelledby="contacts-title"><div><h2 id="contacts-title">Давайте будем на связи.</h2><p>Поможем выбрать аромат и ответим на ваши вопросы.</p></div><a class="contact-phone" href="tel:+79640642728">+7 (964) 064-27-28<span class="icon arrow-up-right" aria-hidden="true"></span></a><a class="contact-email" href="mailto:muskhab.dakayev@mail.ru">muskhab.dakayev@mail.ru</a></section>
+  </main>
+  <footer class="footer shell"><div class="footer-top"><div><a class="wordmark" href="#home">saba-dy</a><p>Натуральное мыло.<br>Маленькие моменты заботы.</p></div><div class="footer-nav"><a href="#products">Товары</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a></div><div class="footer-legal"><a href="https://saba-dy.ru/offer.html" target="_blank" rel="noopener">Публичная оферта магазина<span class="icon arrow-up-right" aria-hidden="true"></span></a><a href="privacy.html">Данные и конфиденциальность</a><button type="button" data-open-privacy>Данные браузера</button></div></div><div class="footer-bottom"><span>© 2026 saba-dy</span><span>ИП Дакаев М. А. · ИНН 200102782553</span><span>Дизайн-концепция · Заказы не принимаются</span></div></footer>
+
+  <dialog class="drawer cart-drawer" id="cart-dialog" aria-labelledby="cart-title"><div class="drawer-head"><h2 id="cart-title">Ваша корзина</h2><button class="icon-button" data-close-dialog type="button" aria-label="Закрыть корзину"><span class="icon x" aria-hidden="true"></span></button></div><div id="cart-content"></div></dialog>
+  <dialog class="product-dialog" id="product-dialog" aria-labelledby="product-dialog-title"><button class="icon-button modal-close" data-close-dialog type="button" aria-label="Закрыть описание"><span class="icon x" aria-hidden="true"></span></button><div id="product-detail"></div></dialog>
+  <dialog class="privacy-dialog" id="privacy-dialog" aria-labelledby="privacy-title"><div class="drawer-head"><h2 id="privacy-title">Данные браузера</h2><button class="icon-button" data-close-dialog type="button" aria-label="Закрыть настройки"><span class="icon x" aria-hidden="true"></span></button></div><p>Корзина сохраняется на этом устройстве на 30 дней, отметка о прочтении уведомления на 180 дней. Рекламных и аналитических cookies нет.</p><p>Это демонстрация дизайна. Контактные данные не запрашиваются, заказы и платежи не отправляются.</p><a class="text-link" href="privacy.html">Подробнее о данных</a><button class="button secondary" type="button" data-clear-storage>Очистить корзину и отметку уведомления</button><p class="storage-status" aria-live="polite"></p></dialog>
+  <dialog class="drawer menu-drawer" id="menu-dialog" aria-labelledby="menu-title"><div class="drawer-head"><span class="wordmark" id="menu-title">saba-dy</span><button class="icon-button" data-close-dialog type="button" aria-label="Закрыть меню"><span class="icon x" aria-hidden="true"></span></button></div><nav aria-label="Мобильная навигация"><a href="#home">Главная</a><a href="#products">Товары</a><a href="#delivery">Доставка</a><a href="#contacts">Контакты</a></nav><button type="button" class="text-button theme-toggle">Сменить цветовую тему<span class="icon moon" aria-hidden="true"></span></button><p>Натуральное мыло ручной работы</p></dialog>
+  <aside class="cookie-notice" aria-label="Данные браузера" hidden><div><h2>Сохраним ваш выбор</h2><p>Корзина остаётся в этом браузере. Без рекламных cookies и аналитики. <a href="privacy.html">Подробнее</a></p></div><button class="cookie-dismiss" type="button" data-dismiss-notice>Понятно<span class="icon check" aria-hidden="true"></span></button></aside>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
